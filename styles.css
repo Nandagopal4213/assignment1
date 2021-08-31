@@ -98,3 +98,31 @@ word-spacing: 20px;
     width: 90%;
     line-height: 150%;
 }
+@media screen and (max-width:753px) {
+    html{
+        font-size: 30%;
+    }
+nav{
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+.container2{
+    flex-direction: column;
+    margin-top: -60px;
+}
+.container2 .box{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.banner-container{
+    min-height:60vh;
+}
+.banner-container .container .section1 h1{
+    font-size: 45px;
+}
+.container2 .box h4{
+    font-size: 25px;
+}
+}
